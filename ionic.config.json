@@ -1,0 +1,7 @@
+{
+  "name": "life-cycle",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
