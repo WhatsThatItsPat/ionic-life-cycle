@@ -6,6 +6,10 @@ const routes: Routes = [
   {
     path: '',
     component: Tab1Page,
+  },
+  {
+    path: 'nested',
+    loadChildren: () => import('./nested/nested.module').then( m => m.NestedPageModule)
   }
 ];
 

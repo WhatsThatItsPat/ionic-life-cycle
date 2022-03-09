@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-tab3',
-  templateUrl: 'tab3.page.html',
-  styleUrls: ['tab3.page.scss']
+  selector: 'app-outside',
+  templateUrl: './outside.page.html',
+  styleUrls: ['./outside.page.scss'],
 })
-export class Tab3Page implements OnInit {
+export class OutsidePage implements OnInit {
 
-  page = 'page three';
+  page = 'outside';
 
   constructor() {}
 

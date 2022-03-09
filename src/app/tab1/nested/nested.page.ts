@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-tab3',
-  templateUrl: 'tab3.page.html',
-  styleUrls: ['tab3.page.scss']
+  selector: 'app-nested',
+  templateUrl: './nested.page.html',
+  styleUrls: ['./nested.page.scss'],
 })
-export class Tab3Page implements OnInit {
+export class NestedPage implements OnInit {
 
-  page = 'page three';
+  page = 'nested';
 
   constructor() {}
 
